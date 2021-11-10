@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+#holder{
+    display:grid;
+    grid-gap: 5px;
+
+    background-color: black;
+
+    margin:auto;
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 900px){
+    #holder{ 
+        width:900px;
+        height:572px;
+        grid: 
+            "a a b b b c c d e g g"
+            "f f f f h i j d e g g"
+            "f f f f h i j d k k n"
+            "f f f f h l l d k k n"
+            "f f f f m m q d o o n"
+            "p p t t s s q d . . ."
+            "p p t t . . q r r r r"; 
+    }
+}
+
+@media only screen and (max-width: 900px){
+    #holder{
+        width:600px;
+        height:675px;
+        grid: 
+            "a a b b b c c d"
+            "e f f f f g g d"
+            "e f f f f g g d"
+            "h f f f f i j d"
+            "h f f f f i j d"
+            "h k k l l m m d"
+            "n k k o o p p q"
+            "n r r s s p p q"
+            "n r r t t t t q";
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #holder{
+        width:500px;
+        height:1700px;
+        grid: 
+            "a a b b b"
+            "c c e d h"
+            "g g e d h"
+            "g g e i h"
+            "j . e i ."
+            "j . e k k"
+            "l l e k k"
+            "f f f f n"
+            "f f f f n"
+            "f f f f n"
+            "f f f f q"
+            "m m o o q"
+            "m m o o q"
+            "p p r r q"
+            "p p r r ."
+            "s s . . ."
+            "t t t t .";
+    }
+}
+
+.div1{
+    grid-area: a;
+    background-image: url(images/01.jpg);
+    background-size: cover;
+}
+
+.div2{
+    grid-area: b;
+    background-image: url(images/02.jpg);
+    background-size: cover;
+}
+
+.div3{
+    grid-area: c;
+    background-image: url(images/03.jpg);
+    background-size: cover;
+}
+
+.div4{
+    grid-area: d;
+    background-image: url(images/04.jpg);
+    background-size: cover;
+}
+
+.div5{
+    grid-area: e;
+    background-image: url(images/05.jpg);
+    background-size: cover;
+}
+
+.div6{
+    grid-area: f;
+    background-image: url(images/06.jpg);
+    background-size: cover;
+}
+
+.div7{
+    grid-area: g;
+    background-image: url(images/07.jpg);
+    background-size: cover;
+}
+
+.div8{
+    grid-area: h;
+    background-image: url(images/08.jpg);
+    background-size: cover;
+}
+
+.div9{
+    grid-area: i;
+    background-image: url(images/09.jpg);
+    background-size: cover;
+}
+
+.div10{
+    grid-area: j;
+    background-image: url(images/10.jpg);
+    background-size: cover;
+}
+
+.div11{
+    grid-area: k;
+    background-image: url(images/11.jpg);
+    background-size: cover;
+}
+
+.div12{
+    grid-area: l;
+    background-image: url(images/12.jpg);
+    background-size: cover;
+}
+
+.div13{
+    grid-area: m;
+    background-image: url(images/13.jpg);
+    background-size: cover;
+}
+
+.div14{
+    grid-area: n;
+    background-image: url(images/14.jpg);
+    background-size: cover;
+}
+
+.div15{
+    grid-area: o;
+    background-image: url(images/15.jpg);
+    background-size: cover;
+}
+
+.div16{
+    grid-area: p;
+    background-image: url(images/16.jpg);
+    background-size: cover;
+}
+
+.div17{
+    grid-area: q;
+    background-image: url(images/17.jpg);
+    background-size: cover;
+}
+
+.div18{
+    grid-area: r;
+    background-image: url(images/18.jpg);
+    background-size: cover;
+}
+
+.div19{
+    grid-area: s;
+    background-image: url(images/19.jpg);
+    background-size: cover;
+}
+
+.div20{
+    grid-area: t;
+    background-image: url(images/20.jpg);
+    background-size: cover;
+}
